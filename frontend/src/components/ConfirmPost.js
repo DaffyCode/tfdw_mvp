@@ -1,7 +1,7 @@
 import { Col, Container, Row } from 'react-bootstrap';
 import {  useLocation, useNavigate } from 'react-router-dom';
 
-const NextPage = () => {
+const ConfirmPost = () => {
 
   const navigate = useNavigate();
   const location = useLocation();
@@ -156,4 +156,4 @@ const NextPage = () => {
     
   );
 };
-export default NextPage
+export default ConfirmPost
