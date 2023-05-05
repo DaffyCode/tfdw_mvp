@@ -134,7 +134,7 @@ const ConfirmPost = () => {
       <Col>
         <div className="text-areas">
         <textarea type='text' className='commentbox' 
-              value={commentText}>{commentText}</textarea>
+              value={commentText2}>{commentText2}</textarea>
         </div>
       </Col>
     </>
